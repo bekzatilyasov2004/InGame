@@ -1,0 +1,18 @@
+{
+    "title": "InGame",
+    "production": "Продукция",
+    "services": "Услуги",
+    "configurator": "Конфигуратор",
+    "aboutBrand": "О бренде",
+    "contact": "Связаться",
+    "currency": {
+        "uzs": "Сум",
+        "usd": "Доллар"
+    },
+    "sections": {
+        "production": "Раздел продукции",
+        "services": "Раздел услуг",
+        "configurator": "Раздел конфигуратора",
+        "aboutBrand": "Раздел о бренде"
+    }
+}

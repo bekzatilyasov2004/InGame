@@ -1,0 +1,18 @@
+{
+    "title": "InGame",
+    "production": "Mahsulotlar",
+    "services": "Xizmatlar",
+    "configurator": "Konfigurator",
+    "aboutBrand": "Brend haqida",
+    "contact": "Bog'lanish",
+    "currency": {
+        "uzs": "So'm",
+        "usd": "Dollar"
+    },
+    "sections": {
+        "production": "Mahsulotlar bo'limi",
+        "services": "Xizmatlar bo'limi",
+        "configurator": "Konfigurator bo'limi",
+        "aboutBrand": "Brend haqida bo'lim"
+    }
+}

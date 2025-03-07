@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+.custom-slide{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 660px;
+}
+
+@media (max-width: 768px) {
+  .custom-slide {
+      height:472px; 
+  }
+}
+.orbitron{
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+}
+
+
+  

@@ -1,0 +1,32 @@
+import { create } from "zustand";
+
+export const useStore = create((set) => ({
+  categories: ["Noutbuk", "Aksessuar", "Telefon", "Planshet"],
+  products: [
+    { id: 1, name: "MacBook Pro", brand: "Apple", price: 1200, category: "Noutbuk", type: "original", image: "naz.png" },
+    { id: 2, name: "Galaxy Tab S8", brand: "Samsung", price: 800, category: "Planshet", type: "official", image: "naz.png" },
+    { id: 3, name: "iPhone 14", brand: "Apple", price: 1100, category: "Telefon", type: "original", image: "naz.png" },
+    { id: 4, name: "AirPods Pro", brand: "Apple", price: 250, category: "Aksessuar", type: "original", image: "naz.png" },
+    { id: 5, name: "Dell XPS 15", brand: "Dell", price: 1300, category: "Noutbuk", type: "official", image: "naz.png" },
+    { id: 6, name: "Galaxy Watch 5", brand: "Samsung", price: 300, category: "Aksessuar", type: "official", image: "naz.png" },
+    { id: 7, name: "Lenovo Legion", brand: "Lenovo", price: 1400, category: "Noutbuk", type: "original", image: "naz.png" },
+    { id: 8, name: "HP Spectre", brand: "HP", price: 1250, category: "Noutbuk", type: "official", image: "naz.png" },
+    { id: 9, name: "Sony WH-1000XM5", brand: "Sony", price: 400, category: "Aksessuar", type: "original", image: "naz.png" },
+    { id: 10, name: "iPad Pro", brand: "Apple", price: 900, category: "Planshet", type: "official", image: "naz.png" },
+    { id: 11, name: "OnePlus 11", brand: "OnePlus", price: 750, category: "Telefon", type: "original", image: "naz.png" },
+    { id: 12, name: "Galaxy Buds 2", brand: "Samsung", price: 150, category: "Aksessuar", type: "official", image: "naz.png" },
+    { id: 13, name: "Asus ROG Zephyrus", brand: "Asus", price: 1600, category: "Noutbuk", type: "gaming", image: "naz.png" },
+    { id: 14, name: "Google Pixel 7", brand: "Google", price: 900, category: "Telefon", type: "original", image: "naz.png" },
+    { id: 15, name: "Huawei MatePad Pro", brand: "Huawei", price: 700, category: "Planshet", type: "official", image: "naz.png" },
+    { id: 16, name: "Razer BlackShark V2", brand: "Razer", price: 120, category: "Aksessuar", type: "gaming", image: "naz.png" },
+    { id: 17, name: "Microsoft Surface Laptop 5", brand: "Microsoft", price: 1400, category: "Noutbuk", type: "business", image: "naz.png" },
+    { id: 18, name: "Xiaomi 13 Pro", brand: "Xiaomi", price: 850, category: "Telefon", type: "original", image: "naz.png" },
+    { id: 19, name: "Bose QuietComfort 45", brand: "Bose", price: 350, category: "Aksessuar", type: "original", image: "naz.png" },
+    { id: 20, name: "Lenovo ThinkPad X1", brand: "Lenovo", price: 1300, category: "Noutbuk", type: "business", image: "naz.png" },
+    { id: 21, name: "Samsung Galaxy Z Fold 4", brand: "Samsung", price: 1800, category: "Telefon", type: "foldable", image: "naz.png" },
+    { id: 22, name: "Sony Xperia 1 IV", brand: "Sony", price: 1200, category: "Telefon", type: "original", image: "naz.png" },
+    { id: 23, name: "Dell Alienware m15", brand: "Dell", price: 2000, category: "Noutbuk", type: "gaming", image: "naz.png" },
+    { id: 24, name: "Apple Watch Ultra", brand: "Apple", price: 800, category: "Aksessuar", type: "original", image: "naz.png" },
+    { id: 25, name: "Samsung Galaxy Tab S9", brand: "Samsung", price: 1000, category: "Planshet", type: "official", image: "naz.png" },
+  ],
+}));
